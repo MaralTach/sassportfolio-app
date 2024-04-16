@@ -1,0 +1,37 @@
+//abstract
+@use '../src/scss/abstracts/mixins';
+@use'../src/scss/abstracts/variables';
+//base
+@use '../src/scss/base/reset';
+//pages
+// @use '../src/pages/about/About.scss';
+// @use'./pages/contact';
+// @use'./pages/home';
+// @use'./pages/projects';
+// //components
+// @use './components/footer';
+// @use'./components/nav';
+// @use'./components/responsive';
+
+
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+body{
+    font-family: variables.$font-family;
+    background-color: variables.$primary-color;
+    color: variables.$text-color;
+    height: 100vh;
+    line-height: 1;
+}
+
+a{
+    color: variables.$text-color;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    font-weight: 400;
+}
