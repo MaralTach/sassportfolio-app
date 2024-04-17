@@ -4,11 +4,11 @@
 @use '../../scss/abstracts/mixins';
 @use '../../scss/abstracts/variables';
 .nav{
-    border: 2px solid red;
+    // border: 2px solid red;
     height: 10vh;
-    padding: 1rem;
+    padding: 2rem;
     &__list{
-        text-align: right;
+        text-align: center;
         list-style-type: none;
     }
     &__item{
@@ -23,7 +23,7 @@
         font-weight: 500;
         @include mixins.soft(.5s);
         &:hover{
-            color: blue;
+            color: rgb(223, 109, 33);
         }
         &--active{
             color: variables.$secondary-color;

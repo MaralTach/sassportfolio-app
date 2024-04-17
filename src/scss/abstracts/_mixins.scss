@@ -3,7 +3,7 @@
 //*****************************************************
 
 
-@use '../abstracts/variables';
+@use './variables';
 
 @mixin soft($sec) {
     transition: all $sec ;

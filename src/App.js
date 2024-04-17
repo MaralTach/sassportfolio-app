@@ -1,19 +1,27 @@
 import './App.scss';
+import React from 'react';
+import NotFound from './components/Error/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
+import Footer from './components/Footer/Footer';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+ 
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-     <Home/>
-     <About/>
-     <Contact/>
-     <Projects/>
+    <div className="home-bgImg-container">
 
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <NotFound/>
+      <Footer/>
     </div>
   );
 }

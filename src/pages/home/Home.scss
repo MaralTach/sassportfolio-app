@@ -4,28 +4,60 @@
 @use '../../scss/abstracts/mixins';
 @use '../../scss/abstracts/variables';
 
-.home-bgImg-container{
-    @include mixins.bgImg(100vh, variables.$pathName1);
+.home{
+    // @include mixins.bgImg(100vh, variables.$pathName7);
+    // background-attachment: fixed;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
 }
-
-.home__name{
-    border: 2px solid red;
-    height: 80vh;
+.home__container{
+    // border: 2px solid rgb(45, 14, 147);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .img_container{
+         margin: auto;
+         flex: 40%;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+       
+        img{
+            width: 70%;
+            border-radius: 40px;
+            
+        }
+    }
+}
+.home{
+    // border: 2px solid red;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding-left: 2rem;
+    flex: 50%;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    &__name{
+}
+.home__name{
         font-size: 5rem;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
-        border-bottom: 2px solid variables.$text-color;
+        // border-bottom: 2px solid variables.$text-color;
         width: 100%;
-        &--last{
-            color: red;
+     
+    }
+    .home__name--last{
+            color: rgb(143, 31, 180);
             font-weight: 700;
         }
+        .home__img{
+            width: 10rem;
+        }
 
-    }
-}
+   
