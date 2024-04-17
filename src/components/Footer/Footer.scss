@@ -1,8 +1,8 @@
 //*****************************************************
 //*   FOOTER
 //*****************************************************
-@use '../abstracts/mixins';
-@use '../abstracts/variables';
+@use '../../scss/abstracts/mixins';
+@use '../../scss/abstracts/variables';
 .link-style{
     a{
         padding: 0.4rem;
