@@ -1,4 +1,5 @@
 import './App.scss';
+import './index.css';
 import React from 'react';
 import NotFound from './components/Error/NotFound';
 import Navbar from './components/Navbar/Navbar';
@@ -9,13 +10,15 @@ import Projects from './pages/projects/Projects';
 import Footer from './components/Footer/Footer';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DarkLightMode from './components/DarkLightMode';
  
 
 function App() {
   return (
     <div className="home-bgImg-container">
      <BrowserRouter>
-     <Navbar />
+     {/* <Navbar /> */}
+     <DarkLightMode/>
      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
