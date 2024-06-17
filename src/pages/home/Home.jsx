@@ -6,9 +6,9 @@ const Home = () => {
      
     <main className="home">
      
-     <h2 className="">Hi! My name is</h2>
-          <h1 className="home__name">Maral <span className="home__name--last">Tach</span> </h1>
-          <h2>I'm a Full Stack Web Developer</h2>
+     <h1 className="">Hi! My name is</h1>
+          <h1 className="home__name">Akmaral <span className="home__name--last">Tach</span> </h1>
+          <h1>I'm a Full Stack Web Developer</h1>
            
     
      
