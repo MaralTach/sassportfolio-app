@@ -1,3 +1,4 @@
+import Type from "../Type"
 import "./Home.scss"
 
 const Home = () => {
@@ -8,8 +9,9 @@ const Home = () => {
      
      <h1 className="">Hi! My name is</h1>
           <h1 className="home__name">Akmaral <span className="home__name--last">Tach</span> </h1>
-          <h1>I'm a Full Stack Web Developer</h1>
-           
+          <div style={{ padding: 10, textAlign: "left" }}>
+                <Type />
+              </div>
     
      
    </main>
